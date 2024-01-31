@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .reddit-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .reddit-header {
+    background-color: #0079d3;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  .reddit-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .reddit-content {
+    padding: 20px;
+  }
+  
+  .memes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }  
+  
+  .meme-item {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .meme-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .meme-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
